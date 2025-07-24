@@ -1,0 +1,11 @@
+.container {
+  margin-top: 20vh;
+}
+
+.card-body {
+  background-color: rgb(211, 250, 250);
+}
+
+.card-header {
+  background-color: rgb(254, 255, 201);
+}

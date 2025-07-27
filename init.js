@@ -8,13 +8,13 @@ document.getElementById('btnGenerate').addEventListener('click', function()
     document.getElementById('birthDayOutput').innerText = initPerson.birthDay;
     document.getElementById('birthMonthOutput').innerText = initPerson.birthMonth;
     document.getElementById('birthYearOutput').innerText = initPerson.birthYear;
-    if (document.getElementById('patronymicField').classList.contains('collapse')) {
-        document.getElementById('patronymicField').classList.remove('collapse');
+    if (document.getElementById('patronymicField').classList.contains('hidden')) {
+        document.getElementById('patronymicField').classList.remove('hidden');
     }
     if (!(initPerson.patronymicName === " ")) {
         document.getElementById('patronymicOutput').innerText = initPerson.patronymicName;
     } else {
-        document.getElementById('patronymicField').classList.add('collapse');
+        document.getElementById('patronymicField').classList.add('hidden');
     }
     document.getElementById('jobOutput').innerText = initPerson.jobName;
 });

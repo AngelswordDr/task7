@@ -1,5 +1,7 @@
 .container {
   margin-top: 20vh;
+  display: flex;
+  justify-content: center;
 }
 
 .card-body {
@@ -8,4 +10,8 @@
 
 .card-header {
   background-color: rgb(254, 255, 201);
+}
+
+.hidden {
+  opacity: 0;
 }
